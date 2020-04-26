@@ -1,6 +1,5 @@
 import React from 'react'
-import Header from './commons/Header'
-import Routes from "../routes";
+import Routes from "../routes"
 
 const App = () => {
     // function getPage() {
@@ -11,9 +10,7 @@ const App = () => {
     //     return <HomePage />
     // }
     return (
-        <Routes>
-          <Header> </Header>
-        </Routes>
+        <Routes />
     );   
 }
 
