@@ -18,7 +18,7 @@ const CourseList=(props) => {
             return (
               <tr key={e.id}>
                 <td>
-                        <Link to={"/courses/"+e.slug }>{e.title}</Link>
+                        <Link to={"/course/"+e.slug }>{e.title}</Link>
                 </td>
                 <td>{e.authorId}</td>
                 <td>{e.category}</td>
