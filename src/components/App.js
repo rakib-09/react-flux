@@ -1,5 +1,7 @@
 import React from 'react'
 import Routes from "../routes"
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
     // function getPage() {
@@ -10,7 +12,10 @@ const App = () => {
     //     return <HomePage />
     // }
     return (
+        <>
+        <ToastContainer autoClose={3000} />
         <Routes />
+        </>
     );   
 }
 

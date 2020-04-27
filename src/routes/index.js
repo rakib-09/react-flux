@@ -10,7 +10,8 @@ import AddNewCourse from '../components/AddNewCourse';
 
 const Routes = () => {
     return (
-      <BrowserRouter>
+        <BrowserRouter>
+            
         <Header />
         <Switch>
           <Route component={HomePage} exact path="/" />
